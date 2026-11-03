@@ -5,7 +5,6 @@ from models import embedder, vector_store
 from views import terminal_view as view
 import llm
 
-# Add your own questions to both lists. More questions = a better threshold.
 IN_TOPIC = [
     "Who was Rama's father?",
     "Why was Rama sent to the forest?",
